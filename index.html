@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="icon" href="data:image/png;base64,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" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Music Player</h1>
+    </header>
+
+    <main>
+        <section class="player">
+            <div class="album-art">
+                <img src="music/images.jpeg" alt="Album Art">
+            </div>
+            <div class="controls">
+                <button id="prevTrack">Prev</button>
+                <button id="playPauseBtn">Play</button>
+                <button id="nextTrack">Next</button>
+            </div>
+            <div class="track-info">
+                <p id="trackTitle">Track Title</p>
+                <p id="trackArtist">Artist Name</p>
+            </div>
+            <input type="range" id="progressBar" min="0" max="100" value="0">
+        </section>
+
+        <section class="tracklist">
+            <h2>Track List</h2>
+            <ul>
+                <li>
+                    <div class="track-info">
+                        <span class="track-name">Track 1</span>
+                        <span class="track-artist">Choo lo</span>
+                    </div>
+                    <button class="track-play-btn" data-src="music/choo lo.mp3" data-title="Track 1" data-artist="choo lo">Play</button>
+                </li>
+                <li>
+                    <div class="track-info">
+                        <span class="track-name">Track 2</span>
+                        <span class="track-artist">Dil tu</span>
+                    </div>
+                    <button class="track-play-btn" data-src="music/dil tu.mp3" data-title="Track 2" data-artist="Dil tu">Play</button>
+                </li>
+                <!-- Add more tracks here -->
+            </ul>
+            <li>
+                <div class="track-info">
+                    <span class="track-name">Track 3</span>
+                    <span class="track-artist">tum se</span>
+                </div>
+                <button class="track-play-btn" data-src="music/tum se" data-title="Track 3" data-artist="tum se">Play</button>
+            </li>
+            <li>
+                <div class="track-info">
+                    <span class="track-name">Track 4</span>
+                    <span class="track-artist">oonchi oonchi</span>
+                </div>
+                <button class="track-play-btn" data-src="music/tum se" data-title="Track 4" data-artist="oonchi oonchi">Play</button>
+            </li>
+            <li>
+                <div class="track-info">
+                    <span class="track-name">Track 5</span>
+                    <span class="track-artist">dildara</span>
+                </div>
+                <button class="track-play-btn" data-src="music/dildara" data-title="Track 5" data-artist="dildara">Play</button>
+            </li>
+            <li>
+                <div class="track-info">
+                    <span class="track-name">Track 6</span>
+                    <span class="track-artist">suniya</span>
+                </div>
+                <button class="track-play-btn" data-src="music/suniya" data-title="Track 6" data-artist="suniya">Play</button>
+            </li>
+
+            <li>
+                <div class="track-info">
+                    <span class="track-name">Track 7</span>
+                    <span class="track-artist">saudebaazi</span>
+                </div>
+                <button class="track-play-btn" data-src="music/saudebaazi" data-title="Track 7" data-artist="saudebaazi">Play</button>
+            </li>
+
+
+            <li>
+                <div class="track-info">
+                    <span class="track-name">Track 8</span>
+                    <span class="track-artist">tu chaiyea</span>
+                </div>
+                <button class="track-play-btn" data-src="music/tu chaiyea" data-title="Track 8" data-artist="tu chaiyea">Play</button>
+            </li>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Music Player</p>
+    </footer>
+
+    <audio id="audioPlayer"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
