@@ -12,8 +12,8 @@ let isPlaying = false;
 let currentTrackIndex = 0;
 
 const tracks = [
-    { src: 'music/choo lo.mp3', title: 'choo lo', artist: 'choo lo' },
-    { src: 'music/dil tu.mp3', title: 'dil tu', artist: 'dil tu' },
+    { src: 'choo lo.mp3', title: 'choo lo', artist: 'choo lo' },
+    { src: 'dil tu.mp3', title: 'dil tu', artist: 'dil tu' },
     { src: 'music/tum se.mp3', title: 'tum se', artist: 'tum se' },
     { src: 'music/oochi oochi.mp3', title: 'oochi oochi', artist: 'oochi oochi' },
     { src: 'music/dildara.mp3', title: 'dildara', artist: 'dildara' },
