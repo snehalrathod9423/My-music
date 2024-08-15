@@ -12,14 +12,14 @@ let isPlaying = false;
 let currentTrackIndex = 0;
 
 const tracks = [
-    { src: 'choo lo.mp3', title: 'choo lo', artist: 'choo lo' },
-    { src: 'Dil tu.mp3', title: 'Dil tu', artist: 'Dil tu' },
-    { src: 'tum se.mp3', title: 'tum se', artist: 'tum se' },
-    { src: 'oochi oochi.mp3', title: 'oochi oochi', artist: 'oochi oochi' },
-    { src: 'dildara.mp3', title: 'dildara', artist: 'dildara' },
-    { src: 'suniya.mp3', title: 'suniya', artist: 'suniya' },
-    { src: 'Saudebaazi.mp3', title: 'Saudebaazi', artist: 'Saudebaazi' },
-    { src: 'tu chaiyea.mp3', title: 'tu chaiyea', artist: 'tu chaiyea' }
+    { src: 'music/choo lo.mp3', title: 'choo lo', artist: 'choo lo' },
+    { src: 'music/dil tu.mp3', title: 'dil tu', artist: 'dil tu' },
+    { src: 'music/tum se.mp3', title: 'tum se', artist: 'tum se' },
+    { src: 'music/oochi oochi.mp3', title: 'oochi oochi', artist: 'oochi oochi' },
+    { src: 'music/dildara.mp3', title: 'dildara', artist: 'dildara' },
+    { src: 'music/suniya.mp3', title: 'suniya', artist: 'suniya' },
+    { src: 'music/saudebaazi.mp3', title: 'saudebaazi', artist: 'saudebaazi' },
+    { src: 'music/tu chaiyea.mp3', title: 'tu chaiyea', artist: 'tu chaiyea' }
     
 ];
 function playTrack(index) {
