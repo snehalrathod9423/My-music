@@ -19,7 +19,8 @@ const tracks = [
     { src: 'dildara.mp3', title: 'dildara', artist: 'dildara' },
     { src: 'suniya.mp3', title: 'suniya', artist: 'suniya' },
     { src: 'saudebaazi.mp3', title: 'saudebaazi', artist: 'saudebaazi' },
-    { src: 'tu chaiyea.mp3', title: 'tu chaiyea', artist: 'tu chaiyea' }
+    { src: 'tu chaiyea.mp3', title: 'tu chaiyea', artist: 'tu chaiyea' },
+     { src: 'jiyein Kyun 128 Kbps.mp3', title: 'Jiyein Kyun 128 kbps', artist: 'Jiyein Kyun 128 Kbps' }
     
 ];
 function playTrack(index) {
